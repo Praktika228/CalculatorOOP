@@ -42,27 +42,12 @@ namespace Calculator
         {
             double firstOperand = Convert.ToDouble(textBox1.Text);
             double secondOperand = Convert.ToDouble(textBox2.Text);
-            double result = 0;
-            
-            switch (((Button) sender).Name)
-            {
-                case "plus":
-                    result = firstOperand + secondOperand;
-                    break;
-                case "minus":
-                    result = firstOperand - secondOperand;
-                    break;
-                case "multiply":
-                    result = firstOperand * secondOperand;
-                    break;
-                case "divide":
-                    result = firstOperand / secondOperand;
-                    break;
-                default:
-                    throw new Exception("Неизвестная операция");
-            }
+
+            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(firstOperand, secondOperand);
 
             label1.Text = result.ToString();
         }
-    }
+    };
+
 }
