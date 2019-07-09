@@ -16,5 +16,20 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
