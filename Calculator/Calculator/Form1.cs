@@ -27,37 +27,6 @@ namespace Calculator
 
         }
 
-        private void Button4_Click(object sender, EventArgs e)
-        {
-            double firstOperand = Convert.ToDouble(textBox1.Text);
-            double secondOperand = Convert.ToDouble(textBox2.Text);
-            double result = firstOperand / secondOperand;
-            label1.Text = result.ToString();
-        }
-
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            double firstOperand = Convert.ToDouble(textBox1.Text);
-            double secondOperand = Convert.ToDouble(textBox2.Text);
-            double result = firstOperand + secondOperand;
-            label1.Text = result.ToString();
-        }
-
-        private void Button2_Click(object sender, EventArgs e)
-        {
-            double firstOperand = Convert.ToDouble(textBox1.Text);
-            double secondOperand = Convert.ToDouble(textBox2.Text);
-            double result = firstOperand - secondOperand;
-            label1.Text = result.ToString();
-        }
-
-        private void Button3_Click(object sender, EventArgs e)
-        {
-            double firstOperand = Convert.ToDouble(textBox1.Text);
-            double secondOperand = Convert.ToDouble(textBox2.Text);
-            double result = firstOperand * secondOperand;
-            label1.Text = result.ToString();
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -67,6 +36,33 @@ namespace Calculator
         private void Label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Button_Click(object sender, EventArgs e)
+        {
+            double firstOperand = Convert.ToDouble(textBox1.Text);
+            double secondOperand = Convert.ToDouble(textBox2.Text);
+            double result = 0;
+            
+            switch (((Button) sender).Name)
+            {
+                case "plus":
+                    result = firstOperand + secondOperand;
+                    break;
+                case "minus":
+                    result = firstOperand - secondOperand;
+                    break;
+                case "multiply":
+                    result = firstOperand * secondOperand;
+                    break;
+                case "divide":
+                    result = firstOperand / secondOperand;
+                    break;
+                default:
+                    throw new Exception("Неизвестная операция");
+            }
+
+            label1.Text = result.ToString();
         }
     }
 }
