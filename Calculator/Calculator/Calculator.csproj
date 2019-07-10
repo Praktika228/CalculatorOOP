@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OneArgumentCalculator\AbsoluteCalculator.cs" />
+    <Compile Include="OneArgumentCalculator\ArcsinCalculator.cs" />
     <Compile Include="OneArgumentCalculator\CosCalculator.cs" />
     <Compile Include="OneArgumentCalculator\ECalculator.cs" />
     <Compile Include="OneArgumentCalculator\LnCalculator.cs" />
