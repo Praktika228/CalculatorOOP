@@ -48,6 +48,15 @@ namespace Calculator
 
             label1.Text = result.ToString();
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            double operand = Convert.ToDouble(textBox1.Text);
+
+            IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+            double result = calculator.Calculate(operand);
+            label1.Text = result.ToString();
+        }
     };
 
 }

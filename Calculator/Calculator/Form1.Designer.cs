@@ -35,6 +35,8 @@
             this.minus = new System.Windows.Forms.Button();
             this.multiply = new System.Windows.Forms.Button();
             this.divide = new System.Windows.Forms.Button();
+            this.sqrt = new System.Windows.Forms.Button();
+            this.square = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -69,7 +71,7 @@
             // plus
             // 
             this.plus.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.plus.Location = new System.Drawing.Point(26, 111);
+            this.plus.Location = new System.Drawing.Point(26, 89);
             this.plus.Name = "plus";
             this.plus.Size = new System.Drawing.Size(80, 30);
             this.plus.TabIndex = 3;
@@ -80,7 +82,7 @@
             // minus
             // 
             this.minus.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.minus.Location = new System.Drawing.Point(107, 111);
+            this.minus.Location = new System.Drawing.Point(112, 89);
             this.minus.Name = "minus";
             this.minus.Size = new System.Drawing.Size(80, 30);
             this.minus.TabIndex = 4;
@@ -91,7 +93,7 @@
             // multiply
             // 
             this.multiply.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.multiply.Location = new System.Drawing.Point(188, 111);
+            this.multiply.Location = new System.Drawing.Point(198, 89);
             this.multiply.Name = "multiply";
             this.multiply.Size = new System.Drawing.Size(80, 30);
             this.multiply.TabIndex = 5;
@@ -102,7 +104,7 @@
             // divide
             // 
             this.divide.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.divide.Location = new System.Drawing.Point(269, 111);
+            this.divide.Location = new System.Drawing.Point(284, 89);
             this.divide.Name = "divide";
             this.divide.Size = new System.Drawing.Size(80, 30);
             this.divide.TabIndex = 6;
@@ -110,11 +112,35 @@
             this.divide.UseVisualStyleBackColor = true;
             this.divide.Click += new System.EventHandler(this.Button_Click);
             // 
+            // sqrt
+            // 
+            this.sqrt.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sqrt.Location = new System.Drawing.Point(112, 163);
+            this.sqrt.Name = "sqrt";
+            this.sqrt.Size = new System.Drawing.Size(80, 30);
+            this.sqrt.TabIndex = 7;
+            this.sqrt.Text = "√";
+            this.sqrt.UseVisualStyleBackColor = true;
+            this.sqrt.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // square
+            // 
+            this.square.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.square.Location = new System.Drawing.Point(26, 163);
+            this.square.Name = "square";
+            this.square.Size = new System.Drawing.Size(80, 30);
+            this.square.TabIndex = 8;
+            this.square.Text = "^2";
+            this.square.UseVisualStyleBackColor = true;
+            this.square.Click += new System.EventHandler(this.Button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(503, 181);
+            this.ClientSize = new System.Drawing.Size(503, 240);
+            this.Controls.Add(this.square);
+            this.Controls.Add(this.sqrt);
             this.Controls.Add(this.divide);
             this.Controls.Add(this.multiply);
             this.Controls.Add(this.minus);
@@ -139,6 +165,8 @@
         private System.Windows.Forms.Button minus;
         private System.Windows.Forms.Button multiply;
         private System.Windows.Forms.Button divide;
+        private System.Windows.Forms.Button sqrt;
+        private System.Windows.Forms.Button square;
     }
 }
 
