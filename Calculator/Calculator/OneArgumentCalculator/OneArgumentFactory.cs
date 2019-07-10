@@ -28,6 +28,8 @@ namespace Calculator.OneArgumentCalculator
                     return new TanCalculator();
                 case "arcsin":
                     return new ArcsinCalculator();
+                case "arccos":
+                    return new ArccosCalculator();
                 default:
                     return new SquareCalculator();
             }
