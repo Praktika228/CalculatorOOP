@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -90,6 +91,8 @@
             // 
             // plus
             // 
+            this.plus.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("plus.BackgroundImage")));
+            this.plus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.plus.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.plus.Location = new System.Drawing.Point(26, 89);
             this.plus.Name = "plus";
@@ -101,6 +104,8 @@
             // 
             // minus
             // 
+            this.minus.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("minus.BackgroundImage")));
+            this.minus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.minus.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.minus.Location = new System.Drawing.Point(112, 89);
             this.minus.Name = "minus";
@@ -112,6 +117,8 @@
             // 
             // multiply
             // 
+            this.multiply.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("multiply.BackgroundImage")));
+            this.multiply.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.multiply.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.multiply.Location = new System.Drawing.Point(198, 89);
             this.multiply.Name = "multiply";
@@ -123,6 +130,8 @@
             // 
             // divide
             // 
+            this.divide.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("divide.BackgroundImage")));
+            this.divide.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.divide.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.divide.Location = new System.Drawing.Point(284, 89);
             this.divide.Name = "divide";
@@ -134,6 +143,8 @@
             // 
             // sqrt
             // 
+            this.sqrt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("sqrt.BackgroundImage")));
+            this.sqrt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.sqrt.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.sqrt.Location = new System.Drawing.Point(112, 125);
             this.sqrt.Name = "sqrt";
@@ -145,6 +156,8 @@
             // 
             // square
             // 
+            this.square.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("square.BackgroundImage")));
+            this.square.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.square.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.square.Location = new System.Drawing.Point(26, 125);
             this.square.Name = "square";
@@ -156,6 +169,8 @@
             // 
             // mod
             // 
+            this.mod.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("mod.BackgroundImage")));
+            this.mod.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.mod.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.mod.Location = new System.Drawing.Point(26, 161);
             this.mod.Name = "mod";
@@ -167,6 +182,8 @@
             // 
             // divx
             // 
+            this.divx.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("divx.BackgroundImage")));
+            this.divx.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.divx.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.divx.Location = new System.Drawing.Point(284, 197);
             this.divx.Name = "divx";
@@ -178,6 +195,8 @@
             // 
             // abs
             // 
+            this.abs.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("abs.BackgroundImage")));
+            this.abs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.abs.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.abs.Location = new System.Drawing.Point(370, 197);
             this.abs.Name = "abs";
@@ -189,6 +208,8 @@
             // 
             // minusx
             // 
+            this.minusx.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("minusx.BackgroundImage")));
+            this.minusx.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.minusx.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.minusx.Location = new System.Drawing.Point(198, 197);
             this.minusx.Name = "minusx";
@@ -200,6 +221,8 @@
             // 
             // ln
             // 
+            this.ln.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ln.BackgroundImage")));
+            this.ln.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ln.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ln.Location = new System.Drawing.Point(112, 197);
             this.ln.Name = "ln";
@@ -211,6 +234,8 @@
             // 
             // e
             // 
+            this.e.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("e.BackgroundImage")));
+            this.e.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.e.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.e.Location = new System.Drawing.Point(26, 197);
             this.e.Name = "e";
@@ -222,6 +247,8 @@
             // 
             // cos
             // 
+            this.cos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("cos.BackgroundImage")));
+            this.cos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cos.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cos.Location = new System.Drawing.Point(370, 161);
             this.cos.Name = "cos";
@@ -233,6 +260,8 @@
             // 
             // sin
             // 
+            this.sin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("sin.BackgroundImage")));
+            this.sin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.sin.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.sin.Location = new System.Drawing.Point(284, 161);
             this.sin.Name = "sin";
@@ -244,6 +273,8 @@
             // 
             // max
             // 
+            this.max.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("max.BackgroundImage")));
+            this.max.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.max.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.max.Location = new System.Drawing.Point(198, 161);
             this.max.Name = "max";
@@ -255,6 +286,8 @@
             // 
             // min
             // 
+            this.min.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("min.BackgroundImage")));
+            this.min.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.min.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.min.Location = new System.Drawing.Point(112, 161);
             this.min.Name = "min";
@@ -266,6 +299,8 @@
             // 
             // logx
             // 
+            this.logx.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("logx.BackgroundImage")));
+            this.logx.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.logx.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.logx.Location = new System.Drawing.Point(26, 232);
             this.logx.Name = "logx";
@@ -277,6 +312,8 @@
             // 
             // average
             // 
+            this.average.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("average.BackgroundImage")));
+            this.average.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.average.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.average.Location = new System.Drawing.Point(112, 232);
             this.average.Name = "average";
@@ -288,6 +325,8 @@
             // 
             // tan
             // 
+            this.tan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tan.BackgroundImage")));
+            this.tan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tan.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tan.Location = new System.Drawing.Point(284, 233);
             this.tan.Name = "tan";
@@ -299,6 +338,8 @@
             // 
             // geometric
             // 
+            this.geometric.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("geometric.BackgroundImage")));
+            this.geometric.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.geometric.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.geometric.Location = new System.Drawing.Point(198, 232);
             this.geometric.Name = "geometric";
@@ -310,6 +351,8 @@
             // 
             // arcsin
             // 
+            this.arcsin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("arcsin.BackgroundImage")));
+            this.arcsin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.arcsin.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.arcsin.Location = new System.Drawing.Point(370, 232);
             this.arcsin.Name = "arcsin";
@@ -321,6 +364,8 @@
             // 
             // arccos
             // 
+            this.arccos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("arccos.BackgroundImage")));
+            this.arccos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.arccos.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.arccos.Location = new System.Drawing.Point(26, 268);
             this.arccos.Name = "arccos";
@@ -332,6 +377,8 @@
             // 
             // ctan
             // 
+            this.ctan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ctan.BackgroundImage")));
+            this.ctan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ctan.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ctan.Location = new System.Drawing.Point(112, 268);
             this.ctan.Name = "ctan";
@@ -343,6 +390,8 @@
             // 
             // arctan
             // 
+            this.arctan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("arctan.BackgroundImage")));
+            this.arctan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.arctan.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.arctan.Location = new System.Drawing.Point(198, 268);
             this.arctan.Name = "arctan";
@@ -354,6 +403,8 @@
             // 
             // twopow
             // 
+            this.twopow.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("twopow.BackgroundImage")));
+            this.twopow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.twopow.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.twopow.Location = new System.Drawing.Point(284, 268);
             this.twopow.Name = "twopow";
@@ -365,6 +416,8 @@
             // 
             // tenpow
             // 
+            this.tenpow.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tenpow.BackgroundImage")));
+            this.tenpow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tenpow.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tenpow.Location = new System.Drawing.Point(370, 268);
             this.tenpow.Name = "tenpow";
@@ -378,7 +431,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(630, 494);
+            this.BackgroundImage = global::Calculator.Properties.Resources.hqdefault;
+            this.ClientSize = new System.Drawing.Size(475, 324);
             this.Controls.Add(this.tenpow);
             this.Controls.Add(this.twopow);
             this.Controls.Add(this.arctan);
