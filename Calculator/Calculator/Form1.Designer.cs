@@ -62,6 +62,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.textBox1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.Location = new System.Drawing.Point(26, 37);
             this.textBox1.Name = "textBox1";
@@ -71,6 +72,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.textBox2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox2.Location = new System.Drawing.Point(178, 37);
             this.textBox2.Name = "textBox2";
@@ -82,6 +84,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(355, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 23);
@@ -94,9 +97,10 @@
             this.plus.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("plus.BackgroundImage")));
             this.plus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.plus.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.plus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.plus.Location = new System.Drawing.Point(26, 89);
             this.plus.Name = "plus";
-            this.plus.Size = new System.Drawing.Size(80, 30);
+            this.plus.Size = new System.Drawing.Size(93, 36);
             this.plus.TabIndex = 3;
             this.plus.Text = "+";
             this.plus.UseVisualStyleBackColor = true;
@@ -107,9 +111,10 @@
             this.minus.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("minus.BackgroundImage")));
             this.minus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.minus.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.minus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.minus.Location = new System.Drawing.Point(112, 89);
             this.minus.Name = "minus";
-            this.minus.Size = new System.Drawing.Size(80, 30);
+            this.minus.Size = new System.Drawing.Size(93, 36);
             this.minus.TabIndex = 4;
             this.minus.Text = "-";
             this.minus.UseVisualStyleBackColor = true;
@@ -120,9 +125,10 @@
             this.multiply.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("multiply.BackgroundImage")));
             this.multiply.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.multiply.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.multiply.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.multiply.Location = new System.Drawing.Point(198, 89);
             this.multiply.Name = "multiply";
-            this.multiply.Size = new System.Drawing.Size(80, 30);
+            this.multiply.Size = new System.Drawing.Size(93, 36);
             this.multiply.TabIndex = 5;
             this.multiply.Text = "*";
             this.multiply.UseVisualStyleBackColor = true;
@@ -133,9 +139,10 @@
             this.divide.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("divide.BackgroundImage")));
             this.divide.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.divide.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.divide.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.divide.Location = new System.Drawing.Point(284, 89);
             this.divide.Name = "divide";
-            this.divide.Size = new System.Drawing.Size(80, 30);
+            this.divide.Size = new System.Drawing.Size(93, 36);
             this.divide.TabIndex = 6;
             this.divide.Text = "/";
             this.divide.UseVisualStyleBackColor = true;
@@ -146,9 +153,10 @@
             this.sqrt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("sqrt.BackgroundImage")));
             this.sqrt.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.sqrt.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sqrt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.sqrt.Location = new System.Drawing.Point(112, 125);
             this.sqrt.Name = "sqrt";
-            this.sqrt.Size = new System.Drawing.Size(80, 30);
+            this.sqrt.Size = new System.Drawing.Size(93, 36);
             this.sqrt.TabIndex = 7;
             this.sqrt.Text = "√";
             this.sqrt.UseVisualStyleBackColor = true;
@@ -159,9 +167,10 @@
             this.square.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("square.BackgroundImage")));
             this.square.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.square.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.square.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.square.Location = new System.Drawing.Point(26, 125);
             this.square.Name = "square";
-            this.square.Size = new System.Drawing.Size(80, 30);
+            this.square.Size = new System.Drawing.Size(93, 36);
             this.square.TabIndex = 8;
             this.square.Text = "^2";
             this.square.UseVisualStyleBackColor = true;
@@ -172,9 +181,10 @@
             this.mod.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("mod.BackgroundImage")));
             this.mod.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.mod.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.mod.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.mod.Location = new System.Drawing.Point(26, 161);
             this.mod.Name = "mod";
-            this.mod.Size = new System.Drawing.Size(80, 30);
+            this.mod.Size = new System.Drawing.Size(93, 36);
             this.mod.TabIndex = 9;
             this.mod.Text = "mod";
             this.mod.UseVisualStyleBackColor = true;
@@ -185,9 +195,10 @@
             this.divx.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("divx.BackgroundImage")));
             this.divx.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.divx.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.divx.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.divx.Location = new System.Drawing.Point(284, 197);
             this.divx.Name = "divx";
-            this.divx.Size = new System.Drawing.Size(80, 30);
+            this.divx.Size = new System.Drawing.Size(93, 36);
             this.divx.TabIndex = 10;
             this.divx.Text = "1/x";
             this.divx.UseVisualStyleBackColor = true;
@@ -198,9 +209,10 @@
             this.abs.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("abs.BackgroundImage")));
             this.abs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.abs.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.abs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.abs.Location = new System.Drawing.Point(370, 197);
             this.abs.Name = "abs";
-            this.abs.Size = new System.Drawing.Size(80, 30);
+            this.abs.Size = new System.Drawing.Size(93, 36);
             this.abs.TabIndex = 11;
             this.abs.Text = "abs";
             this.abs.UseVisualStyleBackColor = true;
@@ -211,9 +223,10 @@
             this.minusx.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("minusx.BackgroundImage")));
             this.minusx.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.minusx.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.minusx.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.minusx.Location = new System.Drawing.Point(198, 197);
             this.minusx.Name = "minusx";
-            this.minusx.Size = new System.Drawing.Size(80, 30);
+            this.minusx.Size = new System.Drawing.Size(93, 36);
             this.minusx.TabIndex = 12;
             this.minusx.Text = "-x";
             this.minusx.UseVisualStyleBackColor = true;
@@ -224,9 +237,10 @@
             this.ln.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ln.BackgroundImage")));
             this.ln.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ln.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ln.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ln.Location = new System.Drawing.Point(112, 197);
             this.ln.Name = "ln";
-            this.ln.Size = new System.Drawing.Size(80, 30);
+            this.ln.Size = new System.Drawing.Size(93, 36);
             this.ln.TabIndex = 13;
             this.ln.Text = "ln";
             this.ln.UseVisualStyleBackColor = true;
@@ -237,9 +251,10 @@
             this.e.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("e.BackgroundImage")));
             this.e.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.e.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.e.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.e.Location = new System.Drawing.Point(26, 197);
             this.e.Name = "e";
-            this.e.Size = new System.Drawing.Size(80, 30);
+            this.e.Size = new System.Drawing.Size(93, 36);
             this.e.TabIndex = 14;
             this.e.Text = "e^";
             this.e.UseVisualStyleBackColor = true;
@@ -250,9 +265,10 @@
             this.cos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("cos.BackgroundImage")));
             this.cos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.cos.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.cos.Location = new System.Drawing.Point(370, 161);
             this.cos.Name = "cos";
-            this.cos.Size = new System.Drawing.Size(80, 30);
+            this.cos.Size = new System.Drawing.Size(93, 36);
             this.cos.TabIndex = 15;
             this.cos.Text = "cos";
             this.cos.UseVisualStyleBackColor = true;
@@ -263,9 +279,10 @@
             this.sin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("sin.BackgroundImage")));
             this.sin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.sin.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.sin.Location = new System.Drawing.Point(284, 161);
             this.sin.Name = "sin";
-            this.sin.Size = new System.Drawing.Size(80, 30);
+            this.sin.Size = new System.Drawing.Size(93, 36);
             this.sin.TabIndex = 16;
             this.sin.Text = "sin";
             this.sin.UseVisualStyleBackColor = true;
@@ -276,9 +293,10 @@
             this.max.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("max.BackgroundImage")));
             this.max.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.max.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.max.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.max.Location = new System.Drawing.Point(198, 161);
             this.max.Name = "max";
-            this.max.Size = new System.Drawing.Size(80, 30);
+            this.max.Size = new System.Drawing.Size(93, 36);
             this.max.TabIndex = 17;
             this.max.Text = "max";
             this.max.UseVisualStyleBackColor = true;
@@ -289,9 +307,10 @@
             this.min.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("min.BackgroundImage")));
             this.min.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.min.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.min.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.min.Location = new System.Drawing.Point(112, 161);
             this.min.Name = "min";
-            this.min.Size = new System.Drawing.Size(80, 30);
+            this.min.Size = new System.Drawing.Size(93, 36);
             this.min.TabIndex = 18;
             this.min.Text = "min";
             this.min.UseVisualStyleBackColor = true;
@@ -302,9 +321,10 @@
             this.logx.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("logx.BackgroundImage")));
             this.logx.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.logx.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.logx.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.logx.Location = new System.Drawing.Point(26, 232);
             this.logx.Name = "logx";
-            this.logx.Size = new System.Drawing.Size(80, 30);
+            this.logx.Size = new System.Drawing.Size(93, 36);
             this.logx.TabIndex = 19;
             this.logx.Text = "logx(y)";
             this.logx.UseVisualStyleBackColor = true;
@@ -315,9 +335,10 @@
             this.average.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("average.BackgroundImage")));
             this.average.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.average.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.average.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.average.Location = new System.Drawing.Point(112, 232);
             this.average.Name = "average";
-            this.average.Size = new System.Drawing.Size(80, 30);
+            this.average.Size = new System.Drawing.Size(93, 36);
             this.average.TabIndex = 20;
             this.average.Text = "average";
             this.average.UseVisualStyleBackColor = true;
@@ -328,9 +349,10 @@
             this.tan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tan.BackgroundImage")));
             this.tan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tan.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.tan.Location = new System.Drawing.Point(284, 233);
             this.tan.Name = "tan";
-            this.tan.Size = new System.Drawing.Size(80, 30);
+            this.tan.Size = new System.Drawing.Size(93, 36);
             this.tan.TabIndex = 21;
             this.tan.Text = "tan(x)";
             this.tan.UseVisualStyleBackColor = true;
@@ -341,9 +363,10 @@
             this.geometric.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("geometric.BackgroundImage")));
             this.geometric.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.geometric.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.geometric.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.geometric.Location = new System.Drawing.Point(198, 232);
             this.geometric.Name = "geometric";
-            this.geometric.Size = new System.Drawing.Size(80, 30);
+            this.geometric.Size = new System.Drawing.Size(93, 36);
             this.geometric.TabIndex = 22;
             this.geometric.Text = "geometric";
             this.geometric.UseVisualStyleBackColor = true;
@@ -354,9 +377,10 @@
             this.arcsin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("arcsin.BackgroundImage")));
             this.arcsin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.arcsin.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.arcsin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.arcsin.Location = new System.Drawing.Point(370, 232);
             this.arcsin.Name = "arcsin";
-            this.arcsin.Size = new System.Drawing.Size(80, 30);
+            this.arcsin.Size = new System.Drawing.Size(93, 36);
             this.arcsin.TabIndex = 23;
             this.arcsin.Text = "arcsin(x)";
             this.arcsin.UseVisualStyleBackColor = true;
@@ -367,9 +391,10 @@
             this.arccos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("arccos.BackgroundImage")));
             this.arccos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.arccos.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.arccos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.arccos.Location = new System.Drawing.Point(26, 268);
             this.arccos.Name = "arccos";
-            this.arccos.Size = new System.Drawing.Size(80, 30);
+            this.arccos.Size = new System.Drawing.Size(93, 36);
             this.arccos.TabIndex = 24;
             this.arccos.Text = "arccos(x)";
             this.arccos.UseVisualStyleBackColor = true;
@@ -380,9 +405,10 @@
             this.ctan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ctan.BackgroundImage")));
             this.ctan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ctan.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ctan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ctan.Location = new System.Drawing.Point(112, 268);
             this.ctan.Name = "ctan";
-            this.ctan.Size = new System.Drawing.Size(80, 30);
+            this.ctan.Size = new System.Drawing.Size(93, 36);
             this.ctan.TabIndex = 25;
             this.ctan.Text = "ctan(x)";
             this.ctan.UseVisualStyleBackColor = true;
@@ -393,9 +419,10 @@
             this.arctan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("arctan.BackgroundImage")));
             this.arctan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.arctan.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.arctan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.arctan.Location = new System.Drawing.Point(198, 268);
             this.arctan.Name = "arctan";
-            this.arctan.Size = new System.Drawing.Size(80, 30);
+            this.arctan.Size = new System.Drawing.Size(93, 36);
             this.arctan.TabIndex = 26;
             this.arctan.Text = "arctan(x)";
             this.arctan.UseVisualStyleBackColor = true;
@@ -406,9 +433,10 @@
             this.twopow.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("twopow.BackgroundImage")));
             this.twopow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.twopow.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.twopow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.twopow.Location = new System.Drawing.Point(284, 268);
             this.twopow.Name = "twopow";
-            this.twopow.Size = new System.Drawing.Size(80, 30);
+            this.twopow.Size = new System.Drawing.Size(93, 36);
             this.twopow.TabIndex = 27;
             this.twopow.Text = "2^x";
             this.twopow.UseVisualStyleBackColor = true;
@@ -419,9 +447,10 @@
             this.tenpow.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tenpow.BackgroundImage")));
             this.tenpow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tenpow.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tenpow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.tenpow.Location = new System.Drawing.Point(370, 268);
             this.tenpow.Name = "tenpow";
-            this.tenpow.Size = new System.Drawing.Size(80, 30);
+            this.tenpow.Size = new System.Drawing.Size(93, 36);
             this.tenpow.TabIndex = 28;
             this.tenpow.Text = "10^x";
             this.tenpow.UseVisualStyleBackColor = true;
@@ -463,7 +492,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Ш Р Е К У Л Я Т О Р";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
