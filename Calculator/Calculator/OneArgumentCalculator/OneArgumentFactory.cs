@@ -14,6 +14,8 @@
                     return new CosCalculator();
                 case "e":
                     return new ECalculator();
+                case "ln":
+                    return new LnCalculator();
                 default:
                     return new SquareCalculator();
             }
