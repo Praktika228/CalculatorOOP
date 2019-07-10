@@ -20,6 +20,8 @@ namespace Calculator.OneArgumentCalculator
                     return new LnCalculator();
                 case "minusx":
                     return new NegativeCalculator();
+                case "divx":
+                    return new OneDivOperandCalculator();
                 default:
                     return new SquareCalculator();
             }
