@@ -8,6 +8,10 @@
             {
                 case "sqrt":
                     return new SqrtCalculator();
+                case "sin":
+                    return new SinCalculator();
+                case "cos":
+                    return new CosCalculator();
                 default:
                     return new SquareCalculator();
             }

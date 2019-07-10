@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Calculator.OneArgumentCalculator
 {
-    class SinCalculator : IOneArgumentCalculator
+    class CosCalculator : IOneArgumentCalculator
     {
         public double Calculate(double operand)
         {
-            return Math.Sin(operand);
+            return Math.Cos(operand);
         }
     }
 }
