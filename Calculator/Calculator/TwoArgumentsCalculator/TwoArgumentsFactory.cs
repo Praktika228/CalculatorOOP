@@ -20,6 +20,8 @@
                     return new MaxCalculator();
                 case "logx":
                     return new LogXY();
+                case "average":
+                    return new AverageCalculator();
                 default:
                     return new DivisionCalculator();
             }

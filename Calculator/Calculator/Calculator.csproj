@@ -54,6 +54,7 @@
     <Compile Include="OneArgumentCalculator\OneDivOperandCalculator.cs" />
     <Compile Include="OneArgumentCalculator\SinCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\AdditionCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculator\AverageCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\DivisionCalculator.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
