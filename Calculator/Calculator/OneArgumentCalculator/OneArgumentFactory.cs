@@ -24,6 +24,8 @@ namespace Calculator.OneArgumentCalculator
                     return new OneDivOperandCalculator();
                 case "abs":
                     return new AbsoluteCalculator();
+                case "tan":
+                    return new TanCalculator();
                 default:
                     return new SquareCalculator();
             }

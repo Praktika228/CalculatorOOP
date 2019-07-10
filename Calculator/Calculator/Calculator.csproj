@@ -53,6 +53,7 @@
     <Compile Include="OneArgumentCalculator\NegativeCalculator.cs" />
     <Compile Include="OneArgumentCalculator\OneDivOperandCalculator.cs" />
     <Compile Include="OneArgumentCalculator\SinCalculator.cs" />
+    <Compile Include="OneArgumentCalculator\TanCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\AdditionCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\AverageCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\DivisionCalculator.cs" />
