@@ -57,6 +57,7 @@
     <Compile Include="OneArgumentCalculator\OneDivOperandCalculator.cs" />
     <Compile Include="OneArgumentCalculator\SinCalculator.cs" />
     <Compile Include="OneArgumentCalculator\TanCalculator.cs" />
+    <Compile Include="OneArgumentCalculator\TenpowCalculator.cs" />
     <Compile Include="OneArgumentCalculator\TwopowCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\AdditionCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\AverageCalculator.cs" />

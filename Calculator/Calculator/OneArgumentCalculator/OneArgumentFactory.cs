@@ -34,6 +34,8 @@ namespace Calculator.OneArgumentCalculator
                     return new ArctanCalculator();
                 case "twopow":
                     return new TwopowCalculator();
+                case "tenpow":
+                    return new TenpowCalculator();
                 default:
                     return new SquareCalculator();
             }
