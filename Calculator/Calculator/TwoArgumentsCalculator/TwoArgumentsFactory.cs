@@ -12,6 +12,8 @@
                     return  new SubstractionCalculator();
                 case "multiply":
                     return  new MultiplyCalculator();
+                case "mod":
+                    return new ModCalculator();
                 default:
                     return new DivisionCalculator();
             }

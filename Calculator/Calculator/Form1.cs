@@ -52,6 +52,7 @@ namespace Calculator
             double result = calculator.Calculate(operand);
             label1.Text = result.ToString();
         }
+
     };
 
 }
