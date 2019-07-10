@@ -63,6 +63,7 @@
     </Compile>
     <Compile Include="OneArgumentCalculator\IOneArgumentCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\ITwoArgumentsCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculator\LogXY.cs" />
     <Compile Include="TwoArgumentsCalculator\MaxCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\MinCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\ModCalculator.cs" />

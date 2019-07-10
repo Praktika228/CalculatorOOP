@@ -47,6 +47,16 @@
             this.sin = new System.Windows.Forms.Button();
             this.max = new System.Windows.Forms.Button();
             this.min = new System.Windows.Forms.Button();
+            this.logx = new System.Windows.Forms.Button();
+            this.average = new System.Windows.Forms.Button();
+            this.tan = new System.Windows.Forms.Button();
+            this.geometric = new System.Windows.Forms.Button();
+            this.arcsin = new System.Windows.Forms.Button();
+            this.arccos = new System.Windows.Forms.Button();
+            this.ctan = new System.Windows.Forms.Button();
+            this.arctan = new System.Windows.Forms.Button();
+            this.twopow = new System.Windows.Forms.Button();
+            this.tenpow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -254,11 +264,131 @@
             this.min.UseVisualStyleBackColor = true;
             this.min.Click += new System.EventHandler(this.Button_Click);
             // 
+            // logx
+            // 
+            this.logx.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.logx.Location = new System.Drawing.Point(26, 232);
+            this.logx.Name = "logx";
+            this.logx.Size = new System.Drawing.Size(80, 30);
+            this.logx.TabIndex = 19;
+            this.logx.Text = "logx(y)";
+            this.logx.UseVisualStyleBackColor = true;
+            this.logx.Click += new System.EventHandler(this.Button_Click);
+            // 
+            // average
+            // 
+            this.average.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.average.Location = new System.Drawing.Point(112, 232);
+            this.average.Name = "average";
+            this.average.Size = new System.Drawing.Size(80, 30);
+            this.average.TabIndex = 20;
+            this.average.Text = "average";
+            this.average.UseVisualStyleBackColor = true;
+            this.average.Click += new System.EventHandler(this.Button_Click);
+            // 
+            // tan
+            // 
+            this.tan.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tan.Location = new System.Drawing.Point(284, 233);
+            this.tan.Name = "tan";
+            this.tan.Size = new System.Drawing.Size(80, 30);
+            this.tan.TabIndex = 21;
+            this.tan.Text = "tan(x)";
+            this.tan.UseVisualStyleBackColor = true;
+            this.tan.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // geometric
+            // 
+            this.geometric.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.geometric.Location = new System.Drawing.Point(198, 232);
+            this.geometric.Name = "geometric";
+            this.geometric.Size = new System.Drawing.Size(80, 30);
+            this.geometric.TabIndex = 22;
+            this.geometric.Text = "geometric";
+            this.geometric.UseVisualStyleBackColor = true;
+            this.geometric.Click += new System.EventHandler(this.Button_Click);
+            // 
+            // arcsin
+            // 
+            this.arcsin.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.arcsin.Location = new System.Drawing.Point(370, 232);
+            this.arcsin.Name = "arcsin";
+            this.arcsin.Size = new System.Drawing.Size(80, 30);
+            this.arcsin.TabIndex = 23;
+            this.arcsin.Text = "arcsin(x)";
+            this.arcsin.UseVisualStyleBackColor = true;
+            this.arcsin.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // arccos
+            // 
+            this.arccos.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.arccos.Location = new System.Drawing.Point(26, 268);
+            this.arccos.Name = "arccos";
+            this.arccos.Size = new System.Drawing.Size(80, 30);
+            this.arccos.TabIndex = 24;
+            this.arccos.Text = "arccos(x)";
+            this.arccos.UseVisualStyleBackColor = true;
+            this.arccos.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // ctan
+            // 
+            this.ctan.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ctan.Location = new System.Drawing.Point(112, 268);
+            this.ctan.Name = "ctan";
+            this.ctan.Size = new System.Drawing.Size(80, 30);
+            this.ctan.TabIndex = 25;
+            this.ctan.Text = "ctan(x)";
+            this.ctan.UseVisualStyleBackColor = true;
+            this.ctan.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // arctan
+            // 
+            this.arctan.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.arctan.Location = new System.Drawing.Point(198, 268);
+            this.arctan.Name = "arctan";
+            this.arctan.Size = new System.Drawing.Size(80, 30);
+            this.arctan.TabIndex = 26;
+            this.arctan.Text = "arctan(x)";
+            this.arctan.UseVisualStyleBackColor = true;
+            this.arctan.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // twopow
+            // 
+            this.twopow.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.twopow.Location = new System.Drawing.Point(284, 268);
+            this.twopow.Name = "twopow";
+            this.twopow.Size = new System.Drawing.Size(80, 30);
+            this.twopow.TabIndex = 27;
+            this.twopow.Text = "2^x";
+            this.twopow.UseVisualStyleBackColor = true;
+            this.twopow.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // tenpow
+            // 
+            this.tenpow.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tenpow.Location = new System.Drawing.Point(370, 268);
+            this.tenpow.Name = "tenpow";
+            this.tenpow.Size = new System.Drawing.Size(80, 30);
+            this.tenpow.TabIndex = 28;
+            this.tenpow.Text = "10^x";
+            this.tenpow.UseVisualStyleBackColor = true;
+            this.tenpow.Click += new System.EventHandler(this.Button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 494);
+            this.Controls.Add(this.tenpow);
+            this.Controls.Add(this.twopow);
+            this.Controls.Add(this.arctan);
+            this.Controls.Add(this.ctan);
+            this.Controls.Add(this.arccos);
+            this.Controls.Add(this.arcsin);
+            this.Controls.Add(this.geometric);
+            this.Controls.Add(this.tan);
+            this.Controls.Add(this.average);
+            this.Controls.Add(this.logx);
             this.Controls.Add(this.min);
             this.Controls.Add(this.max);
             this.Controls.Add(this.sin);
@@ -307,6 +437,16 @@
         private System.Windows.Forms.Button sin;
         private System.Windows.Forms.Button max;
         private System.Windows.Forms.Button min;
+        private System.Windows.Forms.Button logx;
+        private System.Windows.Forms.Button average;
+        private System.Windows.Forms.Button tan;
+        private System.Windows.Forms.Button geometric;
+        private System.Windows.Forms.Button arcsin;
+        private System.Windows.Forms.Button arccos;
+        private System.Windows.Forms.Button ctan;
+        private System.Windows.Forms.Button arctan;
+        private System.Windows.Forms.Button twopow;
+        private System.Windows.Forms.Button tenpow;
     }
 }
 

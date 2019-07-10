@@ -18,6 +18,8 @@
                     return  new MinCalculator();
                 case "max":
                     return new MaxCalculator();
+                case "logx":
+                    return new LogXY();
                 default:
                     return new DivisionCalculator();
             }
