@@ -2,7 +2,7 @@
 
 namespace Calculator.OneArgumentCalculator
 {
-    class SqrtCalculator: IOneArgumentCalculator
+    public class SqrtCalculator: IOneArgumentCalculator
     {
         public double Calculate(double operand)
         {

@@ -49,15 +49,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="OneArgumentCalculator\SqrtCalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\SquareCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentsCalculator\AdditionCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\DivisionCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\MultiplyCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\SubstractionCalculatorTests.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OneArgumentCalculator\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Calculator\Calculator.csproj">
       <Project>{af06bf69-a2e2-46a4-b363-e4d7ac28704f}</Project>
