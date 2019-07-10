@@ -22,6 +22,8 @@
                     return new LogXY();
                 case "average":
                     return new AverageCalculator();
+                case "geometric":
+                    return new GeometricCalculator();
                 default:
                     return new DivisionCalculator();
             }
