@@ -26,6 +26,8 @@ namespace Calculator.OneArgumentCalculator
                     return new AbsoluteCalculator();
                 case "tan":
                     return new TanCalculator();
+                case "arcsin":
+                    return new ArcsinCalculator();
                 default:
                     return new SquareCalculator();
             }
