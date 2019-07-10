@@ -16,6 +16,8 @@
                     return new ModCalculator();
                 case "min":
                     return  new MinCalculator();
+                case "max":
+                    return new MaxCalculator();
                 default:
                     return new DivisionCalculator();
             }
