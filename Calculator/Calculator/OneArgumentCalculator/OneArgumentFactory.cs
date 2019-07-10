@@ -22,6 +22,8 @@ namespace Calculator.OneArgumentCalculator
                     return new NegativeCalculator();
                 case "divx":
                     return new OneDivOperandCalculator();
+                case "abs":
+                    return new AbsoluteCalculator();
                 default:
                     return new SquareCalculator();
             }
