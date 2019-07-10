@@ -1,4 +1,6 @@
-﻿namespace Calculator.OneArgumentCalculator
+﻿using System.Windows.Forms.VisualStyles;
+
+namespace Calculator.OneArgumentCalculator
 {
     class OneArgumentFactory
     {
@@ -16,6 +18,8 @@
                     return new ECalculator();
                 case "ln":
                     return new LnCalculator();
+                case "minusx":
+                    return new NegativeCalculator();
                 default:
                     return new SquareCalculator();
             }
