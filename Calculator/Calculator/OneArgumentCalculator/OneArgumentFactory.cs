@@ -12,6 +12,8 @@
                     return new SinCalculator();
                 case "cos":
                     return new CosCalculator();
+                case "e":
+                    return new ECalculator();
                 default:
                     return new SquareCalculator();
             }

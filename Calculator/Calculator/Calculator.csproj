@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OneArgumentCalculator\CosCalculator.cs" />
+    <Compile Include="OneArgumentCalculator\ECalculator.cs" />
     <Compile Include="OneArgumentCalculator\SinCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\AdditionCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\DivisionCalculator.cs" />
