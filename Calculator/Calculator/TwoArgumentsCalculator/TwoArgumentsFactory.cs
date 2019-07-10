@@ -14,6 +14,8 @@
                     return  new MultiplyCalculator();
                 case "mod":
                     return new ModCalculator();
+                case "min":
+                    return  new MinCalculator();
                 default:
                     return new DivisionCalculator();
             }

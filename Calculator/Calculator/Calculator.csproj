@@ -56,6 +56,7 @@
     </Compile>
     <Compile Include="OneArgumentCalculator\IOneArgumentCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\ITwoArgumentsCalculator.cs" />
+    <Compile Include="TwoArgumentsCalculator\MinCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\ModCalculator.cs" />
     <Compile Include="TwoArgumentsCalculator\MultiplyCalculator.cs" />
     <Compile Include="OneArgumentCalculator\OneArgumentFactory.cs" />
