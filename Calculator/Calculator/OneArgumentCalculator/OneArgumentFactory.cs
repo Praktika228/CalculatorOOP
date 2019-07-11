@@ -1,7 +1,19 @@
 ﻿namespace Calculator.OneArgumentCalculator
 {
+    /// <summary>
+    /// class for function definition
+    /// </summary>
     public class OneArgumentFactory
     {
+        /// <summary>
+        /// create calculator for one operation
+        /// </summary>
+        /// <param name="name">
+        /// calculator name
+        /// </param>
+        /// <returns>
+        /// calculator
+        /// </returns>
         public static IOneArgumentCalculator CreateCalculator(string name)
         {
             switch (name)

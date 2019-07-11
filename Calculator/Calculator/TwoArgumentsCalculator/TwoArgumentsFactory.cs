@@ -1,7 +1,19 @@
 ﻿namespace Calculator.TwoArgumentsCalculator
 {
+    /// <summary>
+    /// class for function definition
+    /// </summary>
     public static class TwoArgumentsFactory
     {
+        /// <summary>
+        /// create calculator for one operation
+        /// </summary>
+        /// <param name="name">
+        /// calculator name
+        /// </param>
+        /// <returns>
+        /// calculator
+        /// </returns>
         public static ITwoArgumentsCalculator CreateCalculator(string name)
         {
             switch (name)
