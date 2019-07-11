@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculator.OneArgumentCalculator
 {
@@ -10,6 +6,7 @@ namespace Calculator.OneArgumentCalculator
     {
         public double Calculate(double operand)
         {
+            if(operand <= 0) throw new Exception("Логарифм числа меньше 0");
             return Math.Log(operand);
         }
     }

@@ -1,5 +1,6 @@
 ﻿
 
+using System;
 using Calculator.OneArgumentCalculator;
 using NUnit.Framework;
 
@@ -15,6 +16,12 @@ namespace Calculator.Tests.OneArgumentCalculator
             var calculator = new LnCalculator();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult, 0.1);
+        }
+        [Test]
+        public void CalculationError()
+        {
+            var calculator = new LnCalculator();
+            Assert.Throws<Exception>(() => calculator.Calculate(-3));
         }
     }
 }

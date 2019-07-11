@@ -1,6 +1,4 @@
-﻿using System.Windows.Forms.VisualStyles;
-
-namespace Calculator.OneArgumentCalculator
+﻿namespace Calculator.OneArgumentCalculator
 {
     public class OneArgumentFactory
     {

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Calculator.TwoArgumentsCalculator;
 using NUnit.Framework;
 
@@ -20,6 +16,11 @@ namespace Calculator.Tests.TwoArgumentsCalculator
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }
-
+        [Test]
+        public void CalculationError()
+        {
+            var calculator = new LogXY();
+            Assert.Throws<Exception>(() => calculator.Calculate(-3, 1));
+        }
     }
 }

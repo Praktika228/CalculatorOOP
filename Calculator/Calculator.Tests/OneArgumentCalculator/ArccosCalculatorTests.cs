@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Calculator.OneArgumentCalculator;
 using NUnit.Framework;
 
@@ -18,6 +14,12 @@ namespace Calculator.Tests.OneArgumentCalculator
             var calculator = new ArccosCalculator();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult, 0.01);
+        }
+        [Test]
+        public void CalculationError()
+        {
+            var calculator = new ArccosCalculator();
+            Assert.Throws<Exception>(() => calculator.Calculate(5));
         }
     }
 }

@@ -6,6 +6,7 @@ namespace Calculator.OneArgumentCalculator
     {
         public double Calculate(double operand)
         {
+            if(operand < 0) throw new Exception("Корень от отриц числа");
             return Math.Sqrt(operand);
         }
     }
