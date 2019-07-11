@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows.Forms;
 using Calculator.OneArgumentCalculator;
 using Calculator.TwoArgumentsCalculator;
@@ -37,9 +38,17 @@ namespace Calculator
         {
             double firstOperand = Convert.ToDouble(textBox1.Text);
             double secondOperand = Convert.ToDouble(textBox2.Text);
+            double result = 0;
 
             ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(firstOperand, secondOperand);
+            try
+            {
+                result = calculator.Calculate(firstOperand, secondOperand);
+            }
+            catch(Exception exc)
+            {
+                MessageBox.Show(exc.Message, "Ошибка", MessageBoxButtons.OK);
+            }
 
             label1.Text = result.ToString();
         }
@@ -47,9 +56,17 @@ namespace Calculator
         private void Button2_Click(object sender, EventArgs e)
         {
             double operand = Convert.ToDouble(textBox1.Text);
+            double result = 0;
 
             IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
-            double result = calculator.Calculate(operand);
+            try
+            {
+                result = calculator.Calculate(operand);
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message, "Ошибка", MessageBoxButtons.OK);
+            }
             label1.Text = result.ToString();
         }
     };

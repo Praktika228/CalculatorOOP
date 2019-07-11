@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 
 namespace Calculator.TwoArgumentsCalculator
 {
@@ -6,7 +7,7 @@ namespace Calculator.TwoArgumentsCalculator
     {
         public double Calculate(double firstOperator, double secondOperator)
         {
-            if (secondOperator == 0) throw new Exception("Бан по причине деление на 0");
+            if (secondOperator == 0) throw new Exception("Деление на 0");
             return firstOperator / secondOperator;
         }
     }
