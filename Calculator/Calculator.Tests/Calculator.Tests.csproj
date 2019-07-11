@@ -52,7 +52,9 @@
     <Compile Include="OneArgumentCalculator\AbsoluteCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\ArccosCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\ArcsinCalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\ArctanCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\CosCalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\CtanCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\ECalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\LnCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\NegativeCalculatorTests.cs" />
@@ -61,6 +63,8 @@
     <Compile Include="OneArgumentCalculator\SqrtCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\SquareCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\TanCalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\TenpowCalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\TwopowCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentsCalculator\AdditionCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\AverageCalculatorTests.cs" />
