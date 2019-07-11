@@ -54,6 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TwoArgumentsCalculator\AdditionCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\DivisionCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\MaxCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\MinCalculatorTests.cs" />
+    <Compile Include="TwoArgumentsCalculator\ModCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\MultiplyCalculatorTests.cs" />
     <Compile Include="TwoArgumentsCalculator\SubstractionCalculatorTests.cs" />
   </ItemGroup>
