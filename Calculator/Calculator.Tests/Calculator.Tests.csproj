@@ -58,6 +58,7 @@
     <Compile Include="OneArgumentCalculator\ECalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\LnCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\NegativeCalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\OneArgumentFactoryTests.cs" />
     <Compile Include="OneArgumentCalculator\OneDivOperandCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\SinCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\SqrtCalculatorTests.cs" />

@@ -1,6 +1,6 @@
 ﻿namespace Calculator.OneArgumentCalculator
 {
-    interface IOneArgumentCalculator
+    public interface IOneArgumentCalculator
     {
         double Calculate(double operand);
     }
