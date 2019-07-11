@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Calculator.OneArgumentCalculator
 {
-    public class ArctanCalculator : IOneArgumentCalculator
+    public class CtanCalculator : IOneArgumentCalculator
     {
         public double Calculate(double operand)
         {
-            return Math.Atan(operand);
+            return 1/Math.Tan(operand);
         }
     }
 }

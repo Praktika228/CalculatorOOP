@@ -32,6 +32,8 @@ namespace Calculator.OneArgumentCalculator
                     return new ArccosCalculator();
                 case "arctan":
                     return new ArctanCalculator();
+                case "ctan":
+                    return new CtanCalculator();
                 case "twopow":
                     return new TwopowCalculator();
                 case "tenpow":

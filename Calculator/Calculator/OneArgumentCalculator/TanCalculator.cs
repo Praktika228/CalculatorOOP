@@ -7,7 +7,7 @@ using Calculator.TwoArgumentsCalculator;
 
 namespace Calculator.OneArgumentCalculator
 {
-    class TanCalculator : IOneArgumentCalculator
+    public class TanCalculator : IOneArgumentCalculator
     {
         public double Calculate(double operand)
         {

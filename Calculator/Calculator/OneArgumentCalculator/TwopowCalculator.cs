@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculator.OneArgumentCalculator
 {
-    class TwopowCalculator : IOneArgumentCalculator
+    public class TwopowCalculator : IOneArgumentCalculator
     {
         public double Calculate(double operand)
         {
