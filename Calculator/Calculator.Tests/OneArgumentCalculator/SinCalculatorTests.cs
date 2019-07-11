@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Calculator.OneArgumentCalculator;
-using Calculator.TwoArgumentsCalculator;
+﻿using Calculator.OneArgumentCalculator;
 using NUnit.Framework;
 
 namespace Calculator.Tests.OneArgumentCalculator

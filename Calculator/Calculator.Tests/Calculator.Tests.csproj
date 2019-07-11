@@ -50,6 +50,9 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="OneArgumentCalculator\CosCalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\ECalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\LnCalculatorTests.cs" />
+    <Compile Include="OneArgumentCalculator\NegativeCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\SinCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\SqrtCalculatorTests.cs" />
     <Compile Include="OneArgumentCalculator\SquareCalculatorTests.cs" />

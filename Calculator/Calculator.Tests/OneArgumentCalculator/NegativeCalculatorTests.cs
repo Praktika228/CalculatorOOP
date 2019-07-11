@@ -1,16 +1,17 @@
-﻿using Calculator.OneArgumentCalculator;
+﻿
+using Calculator.OneArgumentCalculator;
 using NUnit.Framework;
 
 namespace Calculator.Tests.OneArgumentCalculator
 {
     [TestFixture]
-    class CosCalculatorTests
+    class NegativeCalculatorTests
     {
-        [TestCase(0, 1)]
-        [TestCase(1, 0.54)]
+        [TestCase(0, 0)]
+        [TestCase(1, -1)]
         public void CalculationTest(double firstValue, double expected)
         {
-            var calculator = new CosCalculator();
+            var calculator = new NegativeCalculator();
             var actualResult = calculator.Calculate(firstValue);
             Assert.AreEqual(expected, actualResult, 0.1);
         }
