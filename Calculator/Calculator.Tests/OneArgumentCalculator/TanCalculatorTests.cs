@@ -8,6 +8,7 @@ namespace Calculator.Tests.OneArgumentCalculator
     {
         [TestCase(0, 0)]
         [TestCase(1, 1.55)]
+        [TestCase(2, -2.18)]
         public void CalculationTest(double firstValue, double expected)
         {
             var calculator = new TanCalculator();

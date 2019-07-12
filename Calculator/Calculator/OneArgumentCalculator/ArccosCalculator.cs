@@ -18,7 +18,10 @@ namespace Calculator.OneArgumentCalculator
         /// </returns>
         public double Calculate(double operand)
         {
-            if(operand>1 || operand<-1 ) throw  new  Exception("Недопустимое значение");
+            if (operand > 1 || operand < -1)
+            {
+                throw new Exception("Недопустимое значение");
+            }
             return Math.Acos(operand);
         }
     }

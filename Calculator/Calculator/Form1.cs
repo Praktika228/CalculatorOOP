@@ -33,7 +33,7 @@ namespace Calculator
         {
 
         }
-      
+
         private void Button_Click(object sender, EventArgs e)
         {
             double firstOperand = Convert.ToDouble(textBox1.Text);
@@ -45,7 +45,7 @@ namespace Calculator
             {
                 result = calculator.Calculate(firstOperand, secondOperand);
             }
-            catch(Exception exc)
+            catch (Exception exc)
             {
                 MessageBox.Show(exc.Message, "Ошибка", MessageBoxButtons.OK);
             }
@@ -55,19 +55,19 @@ namespace Calculator
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            double operand = Convert.ToDouble(textBox1.Text);
-            double result = 0;
-
-            IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
             try
             {
-                result = calculator.Calculate(operand);
+                double operand = Convert.ToDouble(textBox1.Text);
+
+                IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+
+                var result = calculator.Calculate(operand);
+                label1.Text = result.ToString();
             }
             catch (Exception exc)
             {
                 MessageBox.Show(exc.Message, "Ошибка", MessageBoxButtons.OK);
             }
-            label1.Text = result.ToString();
         }
     };
 

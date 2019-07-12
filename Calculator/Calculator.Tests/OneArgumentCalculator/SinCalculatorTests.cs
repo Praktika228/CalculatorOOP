@@ -8,6 +8,7 @@ namespace Calculator.Tests.OneArgumentCalculator
     {
         [TestCase(0, 0)]
         [TestCase(1, 0.84)]
+        [TestCase(2, 0.90)]
         public void CalculationTest(double firstValue, double expected)
         {
             var calculator = new SinCalculator();

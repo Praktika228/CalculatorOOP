@@ -8,6 +8,7 @@ namespace Calculator.Tests.OneArgumentCalculator
     {
         [TestCase(0, 0)]
         [TestCase(1, 0.78)]
+        [TestCase(0.5, 0.46)]
         public void CalculationTest(double firstValue, double expected)
         {
             var calculator = new ArctanCalculator();

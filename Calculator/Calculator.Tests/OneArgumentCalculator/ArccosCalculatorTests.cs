@@ -9,6 +9,8 @@ namespace Calculator.Tests.OneArgumentCalculator
     {
         [TestCase(0, 1.57)]
         [TestCase(1, 0)]
+        [TestCase(0.5, 1.04)]
+
         public void CalculationTest(double firstValue, double expected)
         {
             var calculator = new ArccosCalculator();

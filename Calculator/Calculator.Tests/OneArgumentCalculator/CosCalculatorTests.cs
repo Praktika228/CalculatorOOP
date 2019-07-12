@@ -8,6 +8,7 @@ namespace Calculator.Tests.OneArgumentCalculator
     {
         [TestCase(0, 1)]
         [TestCase(1, 0.54)]
+        [TestCase(2, -0.41)]
         public void CalculationTest(double firstValue, double expected)
         {
             var calculator = new CosCalculator();

@@ -9,6 +9,7 @@ namespace Calculator.Tests.OneArgumentCalculator
     {
         [TestCase(0, 1)]
         [TestCase(1, 2.71)]
+        [TestCase(2, 7.38)]
         public void CalculationTest(double firstValue, double expected)
         {
             var calculator = new ECalculator();

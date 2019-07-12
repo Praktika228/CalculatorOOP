@@ -16,7 +16,7 @@
         /// </returns>
         public double Calculate(double operand)
         {
-            return 0 - operand;
+            return - operand;
         }
     }
 }

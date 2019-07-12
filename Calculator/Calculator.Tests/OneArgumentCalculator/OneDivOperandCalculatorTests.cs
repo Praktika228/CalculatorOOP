@@ -9,6 +9,7 @@ namespace Calculator.Tests.OneArgumentCalculator
     {
         [TestCase(2, 0.5)]
         [TestCase(1, 1)]
+        [TestCase(3, 0.33)]
         public void CalculationTest(double firstValue, double expected)
         {
             var calculator = new OneDivOperandCalculator();
