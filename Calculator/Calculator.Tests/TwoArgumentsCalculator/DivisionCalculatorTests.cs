@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace Calculator.Tests.TwoArgumentsCalculator
 {
     [TestFixture]
-    public  class DivisionCalculatorTests
+    public class DivisionCalculatorTests
     {
         [Test]
         public void CalculationTest()

@@ -19,15 +19,15 @@
             switch (name)
             {
                 case "plus":
-                    return  new AdditionCalculator();
+                    return new AdditionCalculator();
                 case "minus":
-                    return  new SubstractionCalculator();
+                    return new SubstractionCalculator();
                 case "multiply":
-                    return  new MultiplyCalculator();
+                    return new MultiplyCalculator();
                 case "mod":
                     return new ModCalculator();
                 case "min":
-                    return  new MinCalculator();
+                    return new MinCalculator();
                 case "max":
                     return new MaxCalculator();
                 case "logx":

@@ -7,7 +7,7 @@ namespace Calculator.Tests.OneArgumentCalculator
     [TestFixture]
     class ArcsinCalculatorTests
     {
-        [TestCase(0,0)]
+        [TestCase(0, 0)]
         [TestCase(1, 1.57)]
         [TestCase(0.5, 0.52)]
         public void CalculationTest(double firstValue, double expected)

@@ -3,7 +3,7 @@
     /// <summary>
     /// class for mod function
     /// </summary>
-    public class ModCalculator: ITwoArgumentsCalculator
+    public class ModCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
         /// mod function

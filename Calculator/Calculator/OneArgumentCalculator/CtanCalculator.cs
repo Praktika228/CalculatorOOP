@@ -7,17 +7,17 @@ namespace Calculator.OneArgumentCalculator
     /// </summary>
     public class CtanCalculator : IOneArgumentCalculator
     {/// <summary>
-    /// function to find Ctan of number
-    /// </summary>
-    /// <param name="operand">
-    /// number
-    /// </param>
-    /// <returns>
-    /// result of function
-    /// </returns>
+     /// function to find Ctan of number
+     /// </summary>
+     /// <param name="operand">
+     /// number
+     /// </param>
+     /// <returns>
+     /// result of function
+     /// </returns>
         public double Calculate(double operand)
         {
-            return 1/Math.Tan(operand);
+            return 1 / Math.Tan(operand);
         }
     }
 }

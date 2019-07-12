@@ -3,7 +3,7 @@
     /// <summary>
     /// class for substraction function
     /// </summary>
-    public class SubstractionCalculator: ITwoArgumentsCalculator
+    public class SubstractionCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
         /// substraction function

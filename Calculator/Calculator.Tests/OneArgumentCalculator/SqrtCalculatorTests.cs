@@ -11,7 +11,7 @@ namespace Calculator.Tests.OneArgumentCalculator
         {
             var calculator = new Calculator.OneArgumentCalculator.SqrtCalculator();
             double actual = calculator.Calculate(81);
-            Assert.AreEqual(9,actual);
+            Assert.AreEqual(9, actual);
         }
 
         [Test]

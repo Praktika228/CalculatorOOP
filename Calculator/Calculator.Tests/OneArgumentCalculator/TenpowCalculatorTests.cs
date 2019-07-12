@@ -6,7 +6,7 @@ namespace Calculator.Tests.OneArgumentCalculator
     [TestFixture]
     class TenpowCalculatorTests
     {
-        [TestCase(2,100)]
+        [TestCase(2, 100)]
         [TestCase(3, 1000)]
         [TestCase(4, 10000)]
         public void CalculationTest(double firstValue, double expected)

@@ -3,7 +3,7 @@
     /// <summary>
     /// class for sqr
     /// </summary>
-   public class SquareCalculator: IOneArgumentCalculator
+    public class SquareCalculator : IOneArgumentCalculator
     {
         /// <summary>
         /// square function

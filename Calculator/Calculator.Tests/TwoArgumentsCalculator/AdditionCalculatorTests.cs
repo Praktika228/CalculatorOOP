@@ -9,7 +9,7 @@ namespace Calculator.Tests.TwoArgumentsCalculator
         public void CalculationTest()
         {
             var calculator = new Calculator.TwoArgumentsCalculator.AdditionCalculator();
-            double action = calculator.Calculate(5,2);
+            double action = calculator.Calculate(5, 2);
             Assert.AreEqual(7, action);
         }
     }

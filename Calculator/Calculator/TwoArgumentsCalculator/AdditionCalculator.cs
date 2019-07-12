@@ -3,7 +3,7 @@
     /// <summary>
     /// class for addition function
     /// </summary>
-    public class AdditionCalculator: ITwoArgumentsCalculator
+    public class AdditionCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
         /// addition function

@@ -7,7 +7,7 @@ namespace Calculator.Tests.TwoArgumentsCalculator
     [TestFixture]
     class LogXYTests
     {
-        [TestCase(2,8,3)]
+        [TestCase(2, 8, 3)]
         [TestCase(3, 9, 2)]
         [TestCase(2, 4, 2)]
         public void CalculationTest(double firstValue, double secondValue, double expected)

@@ -17,7 +17,7 @@ namespace Calculator.OneArgumentCalculator
         /// </returns>
         public double Calculate(double operand)
         {
-            return Math.Pow(2,operand);
+            return Math.Pow(2, operand);
         }
     }
 }

@@ -18,7 +18,7 @@ namespace Calculator.OneArgumentCalculator
         /// </returns>
         public double Calculate(double operand)
         {
-            if(operand == 0) throw new Exception("Деление на 0");
+            if (operand == 0) throw new Exception("Деление на 0");
             return 1 / operand;
         }
     }

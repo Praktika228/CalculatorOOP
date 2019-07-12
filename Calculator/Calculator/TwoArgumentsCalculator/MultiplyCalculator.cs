@@ -3,7 +3,7 @@
     /// <summary>
     /// class for multiplication
     /// </summary>
-    public class MultiplyCalculator: ITwoArgumentsCalculator
+    public class MultiplyCalculator : ITwoArgumentsCalculator
     {
         /// <summary>
         /// multiplication function
